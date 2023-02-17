@@ -1,3 +1,5 @@
+// mandar cumprimento (Bom dia!, Boa tarde!, ou Boa Noite!) de acordo com o horário informado:
+
 // horário
 let hora = 17; 
 
@@ -11,7 +13,7 @@ if (hora < 12 && hora > 5) {
 }
 
 
-// comparar números
+// comparar números com base em um valor informado previamente na variável numeroTeste:
 let numeroTeste = 10;
 
 if (numeroTeste > 10) {

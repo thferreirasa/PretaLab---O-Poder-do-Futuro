@@ -1,4 +1,6 @@
-// numeros utilizados
+// testar operadores aritméticos a partir de dois valores informados previamente:
+
+// valores utilizados
 const numero1 = 178;
 const numero2 = 345;
 
@@ -10,10 +12,10 @@ const divisao = numero1 / numero2;
 const modulo = numero1 % numero2;
 
 // output
-console.log(`Os números são ${numero1} e ${numero2}`);
+console.log(`Os números calculados foram ${numero1} e ${numero2}`);
 
-console.log(`A soma resulta em ${soma}`);
-console.log(`A subtração resulta em ${subtracao}`);
-console.log(`A multiplicação resulta em ${multiplicacao}`);
-console.log(`A divisão resulta em ${divisao}`);
-console.log(`O módulo da divisão é ${modulo}`);
+console.log(`A soma resulta em ${soma};`);
+console.log(`A subtração resulta em ${subtracao};`);
+console.log(`A multiplicação resulta em ${multiplicacao};`);
+console.log(`A divisão resulta em ${divisao};`);
+console.log(`O módulo da divisão é ${modulo}.`);
