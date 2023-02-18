@@ -22,7 +22,7 @@ console.log(`6. ${fruta6}`);
 
 // exercício de uso de constantes com dados sobre o Brasil:
 const nomePais = "Brasil"; // string
-const pontosTuristicos = ["Farol da Barra", "Cristo Redentor", "Pelourinho", "Elevador Lacerda", "LençoisMaranhenses"];
+const pontosTuristicos = ["Farol da Barra", "Cristo Redentor", "Pelourinho", "Elevador Lacerda", "Lençois Maranhenses"];
 const capital = "Brasília";
 const quantEstados = 26; //number
 const AmLatina = true; // booleano
