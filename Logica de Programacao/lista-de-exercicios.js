@@ -259,3 +259,57 @@ Siga essas regras:
     Porcentagem >= 50 -> E
     Porcentagem < 50 -> F
 O código deve retornar uma mensagem de erro se a nota passada for menor que 0 ou maior que 100. */
+const nota = 80;
+
+if (nota >= 90 && nota <= 100) {
+    console.log("Nota A.");
+} else if (nota >= 80 && nota < 90) {
+    console.log("Nota B.");
+} else if (nota >= 70 && nota < 80) {
+    console.log("Nota C.");
+} else if (nota >= 60 && nota < 70) {
+    console.log("Nota D.");
+} else if (nota >= 50 && nota < 60) {
+    console.log("Nota E.");
+} else if (nota < 50 && nota >= 0) {
+    console.log("Nota F.");
+} else {
+    console.log("Erro! Verifique se o valor está entre 0 e 100.");
+}
+
+
+// Me segura que senão eu caio
+
+/* 14. Utilize if/else para escrever um código que se inicie com duas constantes declaradas: uma para o custo de um produto e
+outra para o seu valor de venda. A partir desses valores, calcule quanto de lucro (valor de venda, descontado o custo do produto)
+a empresa terá ao vender mil desses produtos.
+Seu código também deve mostrar um console com mensagem de erro caso algum dos seus valores de entrada seja menor que zero. */
+const custoProduto = 65;
+const valorProduto = 80;
+
+
+if (custoProduto > 0 && valorProduto > 0) {
+    const lucroProduto = 1000 * (valorProduto - custoProduto);
+    console.log(`O lucro da venda de 1000 desses produtos é de R$${lucroProduto}.`);
+} else {
+    console.log("Erro! Verifique se todos os valores são maiores que 0.");
+}
+
+/* 15. tilize if/else para escrever um código que define três constantes com os valores dos três ângulos internos de um triângulo.
+O programa deve retornar true se os ângulos representarem os ângulos de um triângulo e false, caso contrário.
+
+Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+
+Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Um ângulo será considerado inválido se não tiver
+um valor positivo. */
+const primeiroAngulo = 60;
+const segundoAngulo = 65;
+const terceiroAngulo = 55;
+
+const somaAngulos = primeiroAngulo + segundoAngulo + terceiroAngulo;
+
+if (primeiroAngulo >= 1 && segundoAngulo >= 1 && terceiroAngulo >= 1 && somaAngulos === 180) {
+    console.log(true);
+} else {
+    console.log(false);
+}
