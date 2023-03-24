@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
     <title>Currículo Profissional</title>
 </head>
 <body>
     <!-- Título e Foto -->
     <h1>Currículo Profissional</h1>
-    <img src="./download.png"/>
+    <img id="imagem-perfil" src="./download.png"/>
 
     <!--Nome e sobrenome-->
     <h2>Thaís Ferreira</h2>
@@ -20,7 +21,7 @@
     <!-- Habilidades -->
     <br/>
     <h3>Habilidades</h3>
-    <ul>
+    <ul class="texto-geral">
         <li>Facilidade de aprendizado</li>
         <li>Adaptabilidade</li>
         <li>Inglês intermediário</li>
@@ -32,17 +33,17 @@
     <br/>
     <h3>Experiências</h3>
     <table>
-        <tr>
+        <tr class="titulos-menores">
             <td><b>Empresa</b></td>
             <td><b>Duração</b></td>
             <td><b>Posição</b></td>
         </tr>
-        <tr>
+        <tr class="texto-geral">
             <td>PretaLab</td>
             <td>2023 - atual</td>
             <td>Estudante</td>
         </tr>
-        <tr>
+        <tr class="texto-geral">
             <td>UFBA - Universidade Federal da Bahia</td>
             <td>2018 - atual</td>
             <td>Graduanda em Biologia</td>
@@ -53,13 +54,13 @@
     <br/>
     <h3>Entre em contato</h3>
     <form>
-        <label>Nome</label>
+        <label class="titulos-contato">Nome</label>
         <input placeholder="Digite seu nome" type="text"/>
         <br/>
-        <label>Email</label>
+        <label class="titulos-contato">Email</label>
         <input placeholder="Digite seu email" type="email"/>
         <br/>
-        <label>Mensagem</label>
+        <label class="titulos-contato">Mensagem</label>
         <textarea id="Mensagem" rows="4" cols="30"></textarea>
         <button type="submit">Enviar</button>
     </form>

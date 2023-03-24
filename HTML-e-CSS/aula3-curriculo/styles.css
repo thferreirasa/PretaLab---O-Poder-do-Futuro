@@ -1,0 +1,36 @@
+body {
+    background-color: #f9f7f3;
+}
+
+h1 {
+    color:#9e2a2b;
+    text-align: center;
+}
+
+h2 {
+    color: #9e2a2b;
+}
+
+h3 {
+    color:#9e2a2b;
+}
+
+p {
+    color: #050146;
+}
+
+#imagem-perfil {
+    border-radius: 15%;
+}
+
+.titulos-menores {
+    color: #e76f51;
+}
+
+.texto-geral {
+    color:#050146;
+}
+
+.titulos-contato {
+    color: #9e2a2b;
+}
