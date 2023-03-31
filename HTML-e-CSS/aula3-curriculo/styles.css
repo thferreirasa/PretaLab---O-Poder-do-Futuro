@@ -1,65 +1,64 @@
 body {
-    background-color: #f9f7f3;
+    background-color: #b8c9d6;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
 }
 
 h1 {
-    color:#9e2a2b;
+    color: #05566e;
     text-align: center;
     font-weight: 700;
 }
 
 h2 {
-    color: #9e2a2b;
+    color: #05566e;
+    text-align: center;
     font-weight: 700;
 }
 
 h3 {
-    color:#9e2a2b;
+    color: #05566e;
+    text-align: center;
     font-weight: 500;
 }
 
 p {
-    color: #050146;
+    color: ;
     font-weight: 300;
     line-height: 1.8;
 }
 
 #imagem-perfil {
-    border-radius: 15%;
-}
-
-.tabela {
-    border-color: #050146;
-    border-style: solid;
-    
+    border-radius: 7%;
+    margin: auto;
+    display: block;
 }
 
 .titulos-menores {
-    color: #e76f51;
+    color: ;
     font-weight: 500;
     border-style: solid;
-    border-color: #050146;
+    border-color: ;
     border-width: 1px;
 }
 
 .texto-geral {
-    color:#050146;
+    color: ;
     font-weight: 300;
     line-height: 1.8;
     border-style: solid;
     border: 1px;
-    border-color:#050146;
+    border-color:;
 }
 
 td {
     border: 1px;
     border-style: solid;
-    border-color:#050146;
+    border-color:;
+    padding: 10px;
 }
 
 .titulos-contato {
-    color: #9e2a2b;
+    color: ;
     font-weight: 500;
 }
